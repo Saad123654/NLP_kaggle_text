@@ -10,13 +10,11 @@ Ce projet analyse un ensemble de données, effectue un traitement des données, 
 Voici la structure de base du projet :
 
 
-├── test_without_labels.csv
-└── train_submission.csv
-
-└── main.ipynb         # Le notebook principal avec l'analyse, traitement et modèle
-├── rapport.pdf        # Rapport écrit en PDF détaillant le projet et les résultats
-├── requirements.txt       # Liste des bibliothèques nécessaires pour exécuter le projet
-├──  README.md              # Ce fichier
+- `main.ipynb` : Ce fichier Jupyter Notebook contient l'intégralité du flux de travail, y compris l'analyse des données, le prétraitement des données et l'entraînement du modèle.
+- `rapport.pdf` : Ce fichier PDF contient un rapport détaillé sur le projet, l'analyse des résultats et les conclusions tirées.
+- `requirements.txt` : Ce fichier liste toutes les bibliothèques Python nécessaires pour exécuter le projet.
+- `test_without_labels.csv` : Fichier contenant les données de test sans labels, utilisé pour tester le modèle.
+- `train_submission.csv` : Fichier contenant les résultats d'entraînement, à soumettre pour l'évaluation.
 
 
 
